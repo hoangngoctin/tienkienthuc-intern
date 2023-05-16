@@ -1,0 +1,264 @@
+.main {
+  width: 100%;
+}
+
+.main .main-right {
+  height: 100%;
+  width: 100%;
+  background: #3c2b4b;
+}
+
+.main .main-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .main-left {
+  margin-left: 5rem;
+  width: 60%;
+  background: #ffffff;
+}
+
+.main .main-left .logo-items {
+  width: 60%;
+}
+
+.main .main-left .logo-items img {
+  width: 100%;
+  height: auto;
+}
+
+.main .main-left .main-select {
+  margin: 3rem 0 2rem;
+  padding: 1rem 0 2rem;
+  border-bottom: 5px solid #f1f1f1;
+}
+
+.main .main-left .main-select p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  color: #888888;
+  line-height: 20px;
+}
+
+.main .main-left .main-select .butt {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main .main-left .main-select button {
+  width: 168.5px;
+  height: 50px;
+  background: #f1f1f1;
+  color: #888888;
+  border-radius: 10px;
+  border: none;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.nav-tabs .nav-link {
+  color: #888888;
+  font-weight: 400;
+}
+
+.nav-tabs {
+  border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #000 !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+  font-weight: 700;
+  background-color: #f1f1f1 !important;
+}
+
+.main .main-left .pills-items .tab-content {
+  margin-top: -1px;
+}
+
+.main .main-left .pills-items .tab-content input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.3rem;
+  outline: none;
+  border: none;
+  background: #f1f1f1;
+}
+
+.main .main-left .pills-items .tab-content .list-input input:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.main .main-left .pills-items .tab-content .list-input input:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.main .main-left .pills-items .tab-content button {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+}
+
+.main .main-left .pills-items .submit{
+  background: #303030;
+  color: #f1f1f1;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s;
+}
+.main .main-left .pills-items .submit:hover {
+  filter: brightness(1.2);
+}
+
+.main .main-left .tab-content button:last-child {
+  background: none;
+  color: #242424;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.main .main-left .pills-items .tab-pane .form-group {
+  margin-bottom: 0;
+}
+
+.main .main-left .pills-items .tab-pane .form-control-ftp {
+  width: 100%;
+  background: #f1f1f1;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  color: #6c6b6b;
+}
+
+.select-selected {
+  background-color: rgb(57, 59, 62);
+}
+
+
+.main .main-left .pills-items .tab-pane .butt-sign {
+  background: #303030;
+  color: #f1f1f1;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s;
+}
+.main .main-left .pills-items .tab-pane .butt-sign:hover {
+  filter: brightness(1.2);
+}
+
+.main .main-left .pills-items .tab-pane .pra{
+  padding: 1rem;
+    text-align: center;
+    color: #888888;
+}
+
+.main .main-left .pills-items .tab-pane .pra a{
+  color: #1b1b1b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer {
+  background: #1b1b1b;
+  padding: 4rem 0 2rem;
+  position: relative;
+  z-index: 9;
+}
+
+footer .list-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+footer .list-footer .foot-left p {
+  color: #999999;
+}
+
+footer .list-footer .foot-left ul {
+  padding-left: 0;
+}
+
+footer .list-footer .foot-left ul li {
+  list-style: none;
+  line-height: 2;
+}
+
+footer .list-footer .foot-left ul li a {
+  color: #999999;
+  text-decoration: underline;
+  transition: all .3s;
+}
+footer .list-footer .foot-left ul li:hover a{
+  color: #f1f1f1;
+}
+
+footer .list-footer .foot-right ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .list-footer .foot-right ul li {
+  list-style: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+footer .list-footer .foot-right ul li a {
+  color: #fff;
+  transition: all .3s;
+}
+
+footer .list-footer .foot-right ul li:hover{
+  transform: scale(1.1);
+}
+
+footer .list-footer .foot-right ul li:hover a{
+  color: #999999;
+}
+
+#result{
+  text-align: center;
+  color: rgb(195, 34, 34);
+  margin: 1rem 0;
+}
+
+@media (max-width: 992px) {
+  .main .main-left {
+    margin: 5rem;
+    width: 100%;
+  }
+
+  .main .main-left .logo-items {
+    width: 40%;
+  }
+}
+
+@media (max-width: 541px) {
+  .main .main-left {
+    margin: 2rem;
+  }
+
+  .main .main-left .logo-items {
+    width: 50%;
+  }
+
+  .foot-logo img {
+    width: 40%;
+  }
+
+  footer .list-footer{
+    flex-wrap: wrap;
+  }
+}

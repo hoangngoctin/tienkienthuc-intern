@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="libs/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/icons-1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="main-right">
+          <img src="./img/image.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-5 d-flex flex-direction-column align-items-center">
+        <div class="main-left">
+          <div class="logo-items">
+            <img src="./img/rive_logo_black.svg.png" alt="">
+          </div>
+
+          <div class="main-select">
+            <p>Express login via Google and Facebook</p>
+            <div class="butt">
+              <button>
+                Google <i class="bi bi-google"></i>
+              </button>
+              <button>
+                Facebook <i class="bi bi-facebook"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="pills-items">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home"
+                  type="button" role="tab" aria-controls="nav-home" aria-selected="true">Log in</button>
+                <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
+                  role="tab" aria-controls="nav-profile" aria-selected="false">Sign up</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <form id="login-form">
+                  <input type="text" id="username" name="username" placeholder="email or username">
+                  <input type="password" id="password" name="password" placeholder="password">
+                
+                  <button class="submit" type="submit">Log in</button>
+                  <div id="result"></div>
+
+                  <button>Forgot password</button>
+                </form>
+              </div>
+
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <form>
+                  <div class="form-group">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="password">
+                  </div>
+                  <select class="form-control-ftp" id="">
+                    <option>Animator</option>
+                    <option>Product Designer</option>
+                    <option>Game Designer</option>
+                    <option>Developer</option>
+                    <option>Other (please specify)</option>
+                    <option>I'd rather not say</option>
+                  </select>
+
+                  <button class="butt-sign">Sign up</button>
+                  <p class="pra">
+                    By signinf up you agree to our <a href="">Terms of Service</a> and <a href=""> Privacy Policy</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="" class="foot-logo">
+        <img src="./img/svg.png" alt="">
+      </a>
+
+      <div class="list-footer">
+        <div class="foot-left">
+          <p>
+            © 2022 Rive, Inc. All rights reserved.
+          </p>
+  
+          <ul>
+            <li>
+              <a href="">Terms of Service</a>
+            </li>
+            <li>
+              <a href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="foot-right">
+          <ul>
+            <li>
+              <a href=""><i class="bi bi-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-dribbble"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-discord"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="libs/jquery/jquery-3.6.1.min.js"></script>
+  <script src="libs/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+  <script src="./js.js"></script>
+</body>
+
+</html>
